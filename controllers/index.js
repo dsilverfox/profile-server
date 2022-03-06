@@ -1,3 +1,4 @@
 module.exports = {
-    contactcontroller: require('./contactcontroller')
+    contactcontroller: require('./contactcontroller'),
+    contractcontroller: require('./contractscontroller')
 }

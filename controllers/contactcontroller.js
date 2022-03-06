@@ -8,7 +8,7 @@ router.get('/practice', (req, res) => {
 
 //Post Route
 router.post("/contact", async (req, res) => {
-    console.log("Request Body:", req.body)
+    // console.log("Request Body:", req.body)
     const {firstname, lastname, email, phone, company, message} = req.body.contacts
     
     try {
@@ -34,4 +34,5 @@ router.post("/contact", async (req, res) => {
         })
     }
 } )
+
 module.exports = router;

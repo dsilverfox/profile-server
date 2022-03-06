@@ -11,6 +11,7 @@ app.use(Express.json());
 
 //app.use connections
 app.use("/contact", controllers.contactcontroller);
+app.use("/contract", controllers.contractcontroller);
 
 
 
